@@ -58,8 +58,8 @@ The script simulates attacker behaviour across the **MITRE ATT\&CK framework** b
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/iot--infection.git
-cd iot--infection
+git clone https://github.com/daniyyell-dev/IoT-ATTACK-Sim.git
+cd IoT-ATTACK-Sim
 ```
 
 2. Run the simulation (requires sudo):
