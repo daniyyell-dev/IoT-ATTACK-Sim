@@ -1,6 +1,6 @@
 #!/bin/bash
 # ============================================
-# IoT  Infection Simulation - v3 (Lightweight)
+# IoT Infection Simulation - v3 (Lightweight)
 # Full ATT&CK tactic coverage for classroom labs
 # Tested on Ubuntu-based hosts
 # Author: Daniel Jeremiah
