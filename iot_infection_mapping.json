@@ -49,7 +49,7 @@
     { "label": "Simulated Technique", "color": "#ff0000" }
   ],
   "metadata": [
-    { "name": "Lab", "value": "IoT Fake Infection v3.2" },
+    { "name": "Lab", "value": "IoT Infection v3.2" },
     { "name": "Instructor", "value": "Daniel Jeremiah" },
     { "name": "Purpose", "value": "Full ATT&CK tactic coverage including Event Triggered Execution and FTP/esentutl lateral movement" }
   ],
@@ -58,3 +58,4 @@
   "selectTechniquesAcrossTactics": true,
   "sorting": 0
 }
+
