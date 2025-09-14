@@ -1,5 +1,3 @@
-
-
 # IoT Infection Simulation v3.2 (Lightweight)
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -18,7 +16,6 @@ The script simulates attacker behaviour across the **MITRE ATT\&CK framework** b
 * `iot_infection_v3.2.sh` – Main simulation script (requires root).
 * `iot_infection_v3.2.json` – Reference configuration / metadata file.
 * `cleanup.sh` – Script to remove created artefacts (optional).
-* `README.txt` – Plain-text quick instructions.
 
 ## Features
 
