@@ -13,7 +13,7 @@ The script simulates attacker behaviour across the **MITRE ATT\&CK framework** b
 
 ## Files
 
-* `iot_infection_v3.2.sh` – Main simulation script (requires root).
+* `iot_infection.sh` – Main simulation script (requires root).
 * `iot_infection_v3.2.json` – Reference configuration / metadata file.
 * `cleanup.sh` – Script to remove created artefacts (optional).
 
