@@ -1,0 +1,60 @@
+{
+  "version": "3.2",
+  "name": "IoT Infection Lab v3.2 - Full ATT&CK Coverage",
+  "description": "Extended to include Persistence (Event Triggered Execution - KV Botnet style) and Lateral Movement (FTP/esentutl).",
+  "domain": "enterprise-attack",
+  "techniques": [
+    { "techniqueID": "T1595", "tactic": "reconnaissance", "score": 1, "comment": "Fake nmap scan log" },
+    { "techniqueID": "T1585", "tactic": "resource-development", "score": 1, "comment": "Rogue attacker account 'hacker'" },
+    { "techniqueID": "T1078", "tactic": "initial-access", "score": 1, "comment": "Valid accounts - fake SSH login" },
+
+    { "techniqueID": "T1059.004", "tactic": "execution", "score": 1, "comment": "Reverse shell via bash + nc" },
+    { "techniqueID": "T1559", "tactic": "execution", "score": 1, "comment": "Inter-Process Communication (PITSTOP fake socket)" },
+
+    { "techniqueID": "T1053.003", "tactic": "persistence", "score": 1, "comment": "Cron job persistence" },
+    { "techniqueID": "T1543.002", "tactic": "persistence", "score": 1, "comment": "Systemd service persistence" },
+    { "techniqueID": "T1098.004", "tactic": "persistence", "score": 1, "comment": "SSH Authorized Keys persistence" },
+    { "techniqueID": "T1546", "tactic": "persistence", "score": 1, "comment": "Event Triggered Execution (KV Botnet style log entry)" },
+
+    { "techniqueID": "T1068", "tactic": "privilege-escalation", "score": 1, "comment": "Fake SUID backdoor" },
+
+    { "techniqueID": "T1070", "tactic": "defense-evasion", "score": 1, "comment": "Indicator removal (auth.log tampered)" },
+    { "techniqueID": "T1036.005", "tactic": "defense-evasion", "score": 1, "comment": "Hidden binary .update" },
+
+    { "techniqueID": "T1110", "tactic": "credential-access", "score": 1, "comment": "Fake brute-force attempts logged" },
+
+    { "techniqueID": "T1083", "tactic": "discovery", "score": 1, "comment": "Fake enumeration of /etc and /home" },
+
+    { "techniqueID": "T1021.004", "tactic": "lateral-movement", "score": 1, "comment": "SSH Remote Services - fake session" },
+    { "techniqueID": "T1021.002", "tactic": "lateral-movement", "score": 1, "comment": "FTP Remote Services - fake file transfer" },
+    { "techniqueID": "T1021", "tactic": "lateral-movement", "score": 1, "comment": "esentutl simulated copy to remote share" },
+
+    { "techniqueID": "T1074.001", "tactic": "collection", "score": 1, "comment": "Data staged in /tmp/exfil_data.txt" },
+    { "techniqueID": "T1115", "tactic": "collection", "score": 1, "comment": "Clipboard Data - fake dump" },
+
+    { "techniqueID": "T1048.003", "tactic": "exfiltration", "score": 1, "comment": "Exfiltration Over Unencrypted Non-C2 Protocol (SCP log)" },
+    { "techniqueID": "T1030", "tactic": "exfiltration", "score": 1, "comment": "Data Transfer Size Limits - aborted large file upload" },
+
+    { "techniqueID": "T1571", "tactic": "command-and-control", "score": 1, "comment": "Listener on port 31337 (non-standard port)" },
+    { "techniqueID": "T1071.004", "tactic": "command-and-control", "score": 1, "comment": "DNS queries to malicious domains" },
+
+    { "techniqueID": "T1496", "tactic": "impact", "score": 1, "comment": "Fake miner log entry (resource hijacking)" }
+  ],
+  "gradient": {
+    "colors": ["#ffffff", "#ff0000"],
+    "minValue": 0,
+    "maxValue": 1
+  },
+  "legendItems": [
+    { "label": "Simulated Technique", "color": "#ff0000" }
+  ],
+  "metadata": [
+    { "name": "Lab", "value": "IoT Fake Infection v3.2" },
+    { "name": "Instructor", "value": "Daniel Jeremiah" },
+    { "name": "Purpose", "value": "Full ATT&CK tactic coverage including Event Triggered Execution and FTP/esentutl lateral movement" }
+  ],
+  "showTacticRowBackground": true,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "sorting": 0
+}
