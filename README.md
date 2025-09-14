@@ -9,6 +9,9 @@
 This project provides a **lightweight IoT infection simulation** designed for **classroom labs, SOC analyst training, and detection engineering**.
 The script simulates attacker behaviour across the **MITRE ATT\&CK framework** by generating **synthetic but realistic system events and log entries**.
 
+![Attack Flow](https://github.com/daniyyell-dev/IoT-ATTACK-Sim/blob/main/attack.png)
+
+
 > ⚠️ No harmful actions are performed. All actions are simulated with safe commands, test IP addresses, and benign artefacts.
 
 ## Files
